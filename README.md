@@ -1,4 +1,3 @@
-
 # ghsandbox
 
 Below eachother. We use a new line to ensure they are not on one line.
@@ -23,7 +22,7 @@ With all bullets for images and text. New line not required. Bullets take care o
 * And eventually
 * ![Screenshot](3_vs.png)
 
-With bullets for text but not images
+With bullets for text but not images. Requires a new line before each image so that its on a new line.
 
 * Step 1: do something like this
 
@@ -35,13 +34,16 @@ With bullets for text but not images
 
 ![Screenshot](3_vs.png)
 
-With no bullets for text but not images
+With no bullets:
 
-Step 1: do something like this
+Step 1: do something like this. Again new line required for splitting text/image
+
 ![Screenshot](1_vs.png)
 Then continue
+
 ![Screenshot](2_vs.png)
 And eventually
+
 ![Screenshot](3_vs.png)
 
 With indentation (images)
