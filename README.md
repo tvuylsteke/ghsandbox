@@ -2,7 +2,9 @@
 
 Below eachother:
 ![Screenshot](1_vs.png)
+
 ![Screenshot](2_vs.png)
+
 ![Screenshot](3_vs.png)
 
 With bullets:
