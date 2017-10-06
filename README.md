@@ -1,5 +1,23 @@
 # ghsandbox
 
+Text with no trailing double space
+
+line 1
+line 2
+line 3
+
+Text with trailing double space
+
+line 1  
+line 2  
+line 3  
+
+Below eachother. We use a double trailing space
+
+![Screenshot](1_vs.png)  
+![Screenshot](2_vs.png)  
+![Screenshot](3_vs.png)  
+
 Below eachother. We use a new line to ensure they are not on one line.
 
 ![Screenshot](1_vs.png)
