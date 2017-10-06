@@ -36,12 +36,14 @@ With bullets for text but not images. Requires a new line before each image so t
 
 With no bullets:
 
-Step 1: do something like this. Again new line required for splitting text/image
+Step 1: do something like this. Again new line before each image/text required for splitting text/image
 
 ![Screenshot](1_vs.png)
+
 Then continue
 
 ![Screenshot](2_vs.png)
+
 And eventually
 
 ![Screenshot](3_vs.png)
@@ -49,26 +51,41 @@ And eventually
 With indentation (images)
 
 Step 1: do something like this
+
   ![Screenshot](1_vs.png)
+  
 Then continue
+
   ![Screenshot](2_vs.png)
+  
 And eventually
+
   ![Screenshot](3_vs.png)
 
 With indentation (text)
 
   Step 1: do something like this
+  
 ![Screenshot](1_vs.png)
+
   Then continue
+  
 ![Screenshot](2_vs.png)
+
   And eventually
+  
 ![Screenshot](3_vs.png)
 
 With indentation (all
 
   Step 1: do something like this
+  
   ![Screenshot](1_vs.png)
+  
   Then continue
+  
   ![Screenshot](2_vs.png)
+  
   And eventually
+  
   ![Screenshot](3_vs.png)
