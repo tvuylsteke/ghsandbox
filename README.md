@@ -12,7 +12,7 @@ line 1
 line 2  
 line 3  
 
-Below eachother. We use a double trailing space
+Below eachother. We don't use a double trailing space
 
 ![Screenshot](1_vs.png)
 ![Screenshot](2_vs.png)
