@@ -1,3 +1,4 @@
+
 # ghsandbox
 
 Below eachother. We use a new line to ensure they are not on one line.
@@ -28,9 +29,10 @@ With bullets for text but not images
 
 ![Screenshot](1_vs.png)
 * Then continue
-![Screenshot](2_vs.png)
 
+![Screenshot](2_vs.png)
 * And eventually
+
 ![Screenshot](3_vs.png)
 
 With no bullets for text but not images
