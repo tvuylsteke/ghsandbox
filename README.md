@@ -14,6 +14,13 @@ line 3
 
 Below eachother. We use a double trailing space
 
+![Screenshot](1_vs.png)
+![Screenshot](2_vs.png)
+![Screenshot](3_vs.png)
+
+
+Below eachother. We use a double trailing space
+
 ![Screenshot](1_vs.png)  
 ![Screenshot](2_vs.png)  
 ![Screenshot](3_vs.png)  
