@@ -1,5 +1,11 @@
 # ghsandbox
 
+With arrows (inline html):
+
+&#10148; bla    
+&#10148; blabla     
+&#10148; blabla
+
 Text with no trailing double space
 
 line 1
