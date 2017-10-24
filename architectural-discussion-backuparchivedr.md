@@ -43,6 +43,25 @@
     > [Which Azure Backup Components Should I Use](https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup#which-azure-backup-components-should-i-use)
 
 ## 3 App & Data Migration   
+* **What does your on-premises infrastructure look like? Hyper-V, VMware, Baremetal, etc?**
+
+    Determine the supportability in DR migration. This will dictate the path that should be taken with Azure Site Recovery.     
+    
+    * [Site Recovery Workload](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
+
+* **What types of Operating Systems are in place today for your applications?**
+
+    Understand what Operating Systems will be supported for migration. Depending on the OS, the VHD may need to be lifted and shifted as Azure Site Recovery may not support the OS. 
+    
+    * [Support For Replicated Machine OS Versions](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions)
+
+* **What types of workloads are you looking to backup? Do those workloads need to be filesystem or application consistent?**
+
+    Depending on Filesystem or Application consistency, that will dictate the backup solution to leverage (Azure Backup Agent, Azure Backup Server, or Azure Backup for IaaS). 
+    
+    * [Which Azure Backup Components Should I Use](https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup#which-azure-backup-components-should-i-use)
+
+## 4 App & Data Migration   
 
 | **Question**| **Purpose**| **Relevant Documentation**   |  
 |---|---|---|  
