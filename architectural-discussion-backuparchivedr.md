@@ -13,25 +13,25 @@
 ## App & Data Migration   
 * **What does your on-premises infrastructure look like? Hyper-V, VMware, Baremetal, etc?**
 
-    Determine the supportability in DR migration. This will dictate the path that should be taken with Azure Site Recovery. [[site-recovery-workload](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)]
+    Determine the supportability in DR migration. This will dictate the path that should be taken with Azure Site Recovery. For more information, see [Site Recovery Workload](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload)
 
 * **What types of Operating Systems are in place today for your applications?**
 
-    Understand what Operating Systems will be supported for migration. Depending on the OS, the VHD may need to be lifted and shifted as Azure Site Recovery may not support the OS. [[support-for-replicated-machine-os-versions](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions)]
+    Understand what Operating Systems will be supported for migration. Depending on the OS, the VHD may need to be lifted and shifted as Azure Site Recovery may not support the OS. For more information, see [Support For Replicated Machine OS Versions](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions)
 
 * **What types of workloads are you looking to backup? Do those workloads need to be filesystem or application consistent?**
 
-    Depending on Filesystem or Application consistency, that will dictate the backup solution to leverage (Azure Backup Agent, Azure Backup Server, or Azure Backup for IaaS). [[which-azure-backup-components-should-i-use](https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup#which-azure-backup-components-should-i-use)]
+    Depending on Filesystem or Application consistency, that will dictate the backup solution to leverage (Azure Backup Agent, Azure Backup Server, or Azure Backup for IaaS). For more information, see [Which Azure Backup Components Should I Use](https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup#which-azure-backup-components-should-i-use)
 
 ## Distributed Architecture   
 
 * **Are you looking at Disaster Recovery between on-premises to Azure or Azure to Azure?**
 
-    Determine the desired Disaster Recovery scenario, and how Azure Site Recovery can be used for Disaster Recovery. [[what-can-i-replicate](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview#what-can-i-replicate)]
+    Determine the desired Disaster Recovery scenario, and how Azure Site Recovery can be used for Disaster Recovery. [[What Can I Replicate](https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview#what-can-i-replicate)]
 
 * **For backups, are you protecting workloads in Azure or only on-premises?**
 
-    Understand the need for Locally Redundant Storage (LRS) vs Geograpically Redundant Storage (GRS) for retaining data. Consider the wider scenario to meet attestations of "offsite" data, this will decrease risk of a large failure. [[set-storage-replication](https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm#create-a-recovery-services-vault-for-a-vm#set-storage-replication)]
+    Understand the need for Locally Redundant Storage (LRS) vs Geograpically Redundant Storage (GRS) for retaining data. Consider the wider scenario to meet attestations of "offsite" data, this will decrease risk of a large failure. [[Set Storage Replication](https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm#create-a-recovery-services-vault-for-a-vm#set-storage-replication)]
 
 ## High Availability and Business Continuity / Disaster Recovery   
 
