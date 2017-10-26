@@ -73,3 +73,4 @@
 [1]: https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-workload
 [2]: https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions
 [3]: https://docs.microsoft.com/en-us/azure/backup/backup-introduction-to-azure-backup#which-azure-backup-components-should-i-use
+
